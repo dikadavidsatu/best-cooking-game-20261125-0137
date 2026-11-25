@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ember &amp; Thyme — Sizzle &amp; Serve Cooking Game</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="stage">
+  <canvas id="game" width="1280" height="720" aria-label="Ember and Thyme cooking game"></canvas>
+  <div id="fallback" hidden>
+    <h1>Ember &amp; Thyme — Sizzle &amp; Serve</h1>
+    <p>Your browser needs JavaScript and canvas support to play this cooking game.</p>
+    <p>Pick ingredients, chop and cook them, build the dishes your customers order,
+       and serve them before their patience runs out. Three lunch shifts, twelve recipes,
+       combos, tips and a three-star rating on every shift.</p>
+  </div>
+</div>
+<noscript><p style="color:#fff;text-align:center">This cooking game needs JavaScript enabled.</p></noscript>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
